@@ -1,0 +1,23 @@
+-- Banco de Dados: `site`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `filiais`
+--
+
+CREATE TABLE IF NOT EXISTS `filiais` (
+  `Id` int(3) NOT NULL AUTO_INCREMENT,
+  `Santa Catarina` varchar(35) NOT NULL,
+  `Curitiba` varchar(35) NOT NULL,
+  `Rio de janeiro` varchar(35) NOT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+
+--
+-- Extraindo dados da tabela `filiais`
+--
+
+INSERT INTO `filiais` (`Id`, `Santa Catarina`, `Curitiba`, `Rio de janeiro`) VALUES
+(1, 'Rua:Candido Pereira dos Anjos', 'Rua:Padre Rafael José Kalinowski, 2', 'Rua:Félix da Cunha, 41 - Tijuca.');
